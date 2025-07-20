@@ -654,8 +654,7 @@ a:hover,
     transition: background-color 0.3s ease;
 }
 
-.submit-button:hover
-{
+.submit-button:hover {
     background-color: #3b47c4;
 }
 

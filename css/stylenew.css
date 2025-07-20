@@ -3,6 +3,7 @@ ul {
   margin: 0;
   padding: 0;
 }
+
 a {
   text-decoration: none;
 }
@@ -17,11 +18,13 @@ p {
   margin: 0;
   padding: 0;
 }
+
 .image {
   display: block;
   max-width: 100%;
   height: auto;
 }
+
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -34,23 +37,27 @@ p {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
+
 /*common styles */
 .container {
   max-width: 320px;
   margin: 0 auto;
   padding: 0 16px;
 }
+
 @media (min-width: 768px) {
   .container {
     max-width: 768px;
   }
 }
+
 @media (min-width: 1158px) {
   .container {
     max-width: 1158px;
     padding: 0 15px;
   }
 }
+
 .site-header {
   border-bottom: 1px solid #e7e9fc;
   background-color: #fff;
@@ -104,17 +111,18 @@ p {
   }
 }
 
-.main-nav{
+.main-nav {
   display: flex;
   align-items: center;
 }
+
 .nav-list {
   display: flex;
   align-items: center;
   gap: 40px;
 }
 
-.logo-class{
+.logo-class {
   padding: 24px 0;
   margin-right: 120px;
 }
@@ -148,16 +156,19 @@ p {
 
   background-color: #404bbf;
 }
-.contact-address{
+
+.contact-address {
   font-style: normal;
   display: block;
   margin-left: auto;
 }
+
 .contact-list {
   display: flex;
   flex-direction: column;
   gap: 12px;
 }
+
 .contact-link {
   display: block;
   font-size: 12px;
@@ -175,25 +186,26 @@ p {
 .nav-link.current {
   color: #404bbf;
 }
-  
+
 @media screen and (min-width: 1158px) {
-.header-logo {
-  margin-right: 76px;
+  .header-logo {
+    margin-right: 76px;
+  }
+
+  .contact-list {
+    flex-direction: row;
+    align-items: center;
+    gap: 40px;
+  }
+
+  .contact-link {
+    padding: 24px 0;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+  }
 }
 
-.contact-list {
-  flex-direction: row;
-  align-items: center;
-  gap: 40px;
-}
-
-.contact-link {
-  padding: 24px 0;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-}
-}
 /* mobile menu */
 
 /*.mobile-menu {
@@ -325,6 +337,7 @@ p {
   visibility: visible;
   pointer-events: auto;
 }
+
 /* середина меню */
 .mobile-menu-container {
   display: flex;
@@ -333,6 +346,7 @@ p {
   height: 100%;
   padding: 72px 16px 40px;
 }
+
 .menu-close-button {
   position: absolute;
   top: 24px;
@@ -415,6 +429,7 @@ p {
 .menu-contacts-link:focus {
   color: #404bbf;
 }
+
 .social-container {
   text-align: left;
 }
