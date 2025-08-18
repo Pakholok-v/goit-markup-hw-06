@@ -18,11 +18,11 @@
     />
     <link
       rel="stylesheet"
-      href="https://i.icomoon.io/public/temp/8ff21bca43/UntitledProject/style-svg.css"
+      href="https://i.icomoon.io/public/temp/0c0f17258d/UntitledProject/style-svg.css"
     />
     <script
       defer
-      src="https://i.icomoon.io/public/temp/8ff21bca43/UntitledProject/svgxuse.js"
+      src="https://i.icomoon.io/public/temp/0c0f17258d/UntitledProject/svgxuse.js"
     ></script>
     <link rel="stylesheet" href="css/style.css" />
     <title>Document</title>
@@ -60,10 +60,17 @@
             </li>
           </ul>
         </address>
+
+        <button class="burger-btn" type="button">
+          <svg class="burger-icon" width="24" height="24">
+            <use href="/images/icons.svg#icon-burger"></use>
+          </svg>
+        </button>
       </div>
     </header>
+
     <main>
-      <section id="hero-banner" class="hero-section">
+      <section id="hero-banner" class="hidden">
         <div class="container container-banner">
           <h1 class="hero-title">Effective Solutions for Your Business</h1>
           <button class="button" type="button" data-modal-open>
@@ -71,7 +78,8 @@
           </button>
         </div>
       </section>
-      <section class="features-section" id="features">
+
+      <section class="hidden" id="features">
         <div class="container about-features">
           <h2 class="visually-hidden">Features</h2>
           <ul class="features-list">
@@ -126,7 +134,8 @@
           </ul>
         </div>
       </section>
-      <section id="review" class="team-section">
+
+      <section id="review" class="hidden">
         <div class="container team-container">
           <h2 class="section-title">Our Team</h2>
           <ul class="team-list">
@@ -293,7 +302,8 @@
           </ul>
         </div>
       </section>
-      <section id="portfolio" class="portfolio-cards">
+
+      <section id="portfolio" class="hidden">
         <div class="container team-container">
           <h2 class="section-title">Our Portfolio</h2>
           <ul class="portfolio-list">
@@ -412,7 +422,8 @@
         </div>
       </section>
     </main>
-    <footer class="site-footer">
+
+    <footer class="hidden">
       <div class="footer-container container">
         <div class="footer-logo-block">
           <a href="./index.html" class="logo-class footer-logo">
@@ -460,7 +471,7 @@
         <div class="subscribe">
           <p class="subscribe-title">Subscribe</p>
           <form class="subscribe-form">
-            <label class="footer-email" for="footer-email">
+            <label class="hidden" for="footer-email">
               <input
                 class="subscribe-input"
                 id="footer-email"
@@ -470,7 +481,7 @@
                 required
               />
             </label>
-            <button class="submit-button" type="submit">
+            <button class="hidden" type="submit">
               Subscribe
               <svg class="subscribe-button" width="24" height="24">
                 <use href="./images/icons.svg#icon-send"></use>
@@ -480,7 +491,7 @@
         </div>
       </div>
     </footer>
-    <div class="backdrop is-open" data-modal>
+    <div class="hidden" data-modal>
       <div class="modal">
         <button class="close-button" type="button" data-modal-close>
           <svg class="close" width="8" height="8">
